@@ -1380,7 +1380,7 @@ left to right, top to bottom*/
   padding-left: 15%;
 }
 
-media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   * {
       box-sizing: border-box;
   }
@@ -1404,9 +1404,9 @@ media only screen and (max-width: 768px) {
   }
 
   .headline {
-      /*margin-left: 15%;
-      margin-right: 15%;
-      display: flex;*/
+      margin-left: 0%;
+      margin-right: 0%;
+
   }
 
   .navbar ul {
@@ -1484,6 +1484,12 @@ media only screen and (max-width: 768px) {
 
   .MainPage {
       display: flex;
+      flex-direction: column;
+  }
+
+  .InfoBox {
+    width: 100%;
+    margin-bottom: 1%;
   }
 
   .MainPageBox {
@@ -1495,8 +1501,8 @@ media only screen and (max-width: 768px) {
       width: 100%;
       border: 2px solid mediumseagreen;
       opacity: 90%;
-      /* margin-left: 15%;*/
-      /*margin-right: 15%;*/
+      margin-left: 0%;
+      margin-right: 0%;
   }
 
   .EndingBox {
