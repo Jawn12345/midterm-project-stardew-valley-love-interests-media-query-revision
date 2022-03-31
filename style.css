@@ -40,7 +40,7 @@ body {
 }
 
 .navbar li a:hover {
-    background-color:
+    background-color: gray;
 }
 
 .dropdown .dropbutton {
@@ -55,7 +55,7 @@ body {
 }
 
 .dropdown .dropbutton:hover span {
-    display: none
+    display: none;
 }
 .dropdown .dropbutton:hover:after {
     content:"Marriage Candidates 𝅉";
@@ -1427,6 +1427,7 @@ left to right, top to bottom*/
   .navbar li {
       display: flex;
       justify-content: center;
+      color: black;
   }
 
   .navbar li a {
@@ -1435,7 +1436,7 @@ left to right, top to bottom*/
   }
 
   .navbar li a:hover {
-      background-color:
+      background-color: gray;
   }
 
   .dropdown .dropbutton {
