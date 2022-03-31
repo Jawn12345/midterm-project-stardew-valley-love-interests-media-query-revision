@@ -1381,14 +1381,6 @@ left to right, top to bottom*/
 }
 
 @media only screen and (max-width: 768px) {
-  * {
-      box-sizing: border-box;
-  }
-
-  body, html {
-      padding: 0px;
-      border: 0px;
-  }
 
   body {
       font-family: 'VT323', monospace;
@@ -1407,22 +1399,34 @@ left to right, top to bottom*/
       margin-left: 0%;
       margin-right: 0%;
       display: flex;
+      margin-bottom: 0%;
       /* flex-direction: column; */
       /* border: 2px solid mediumseagreen; */
   }
 
+  .titleName {
+      display: flex;
+      justify-content: center;
+  }
+
   .navbar {
-      /* display: flex;
-      flex-direction: column; */
-      /* border: 2px solid mediumseagreen; */
+      padding: 0%;
   }
 
   .navbar ul {
       list-style-type: none;
+      padding: 0%;
+      margin-bottom: 0%;
+  }
+
+  .navAbout {
+      display: flex;
+      justify-content: center;
   }
 
   .navbar li {
-      display: inline-flex;
+      display: flex;
+      justify-content: center;
   }
 
   .navbar li a {
@@ -1446,10 +1450,11 @@ left to right, top to bottom*/
   }
 
   .dropdown .dropbutton:hover span {
-      display: none
+      display: none;
   }
   .dropdown .dropbutton:hover:after {
       content:"Marriage Candidates 𝅉";
+      color: black;
   }
 
   /* Dropdown content (hidden by default) */
@@ -1504,14 +1509,6 @@ left to right, top to bottom*/
   .ElliottBox, .EmilyBox, .HaleyBox, .HarveyBox,
   .LeahBox, .MaruBox, .PennyBox,
   .SamBox, .SebastianBox, .ShaneBox {
-      /*display: flex;
-      background: lightgreen;
-      padding: 10px;
-      flex-direction: column;
-      justify-content: center;
-      width: 100%;
-      border: 2px solid mediumseagreen;
-      opacity: 90%;*/
       width: 100%;
       margin-left: 0%;
       margin-right: 0%;
