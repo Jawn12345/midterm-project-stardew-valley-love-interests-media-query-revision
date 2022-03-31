@@ -1411,7 +1411,6 @@ left to right, top to bottom*/
 
   .navbar {
       display: flex;
-
       /* border: 2px solid mediumseagreen; */
   }
 
@@ -1488,7 +1487,7 @@ left to right, top to bottom*/
       text-align: left;
   }
 
-  .MainPage {
+  .MainPage, .mainLayout {
       display: flex;
       flex-direction: column;
   }
@@ -1498,7 +1497,7 @@ left to right, top to bottom*/
     margin-bottom: 1%;
   }
 
-  .MainPageBox {
+  .MainPageBox, .AbigailBox {
       display: flex;
       background: lightgreen;
       padding: 10px;
@@ -1509,6 +1508,14 @@ left to right, top to bottom*/
       opacity: 90%;
       margin-left: 0%;
       margin-right: 0%;
+  }
+
+  .AbigailAvator {
+      width: 100%;
+  }
+
+  .AbigailLoveInterestBox {
+      display: none;
   }
 
   .MarriageCandidates {
